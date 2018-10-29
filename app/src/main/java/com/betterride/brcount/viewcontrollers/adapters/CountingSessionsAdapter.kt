@@ -38,19 +38,15 @@ class CountingSessionsAdapter(var sessions: ArrayList<Session>,
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
 
         val dayTextView = view.dayTextView
-        val monthTextView = view.monthTextView
         val scheduleTextView = view.scheduleTextView
         val junctionTextView = view.junctionTextView
-        val laneTextView = view.laneTextView
-        val sessionCardView = view.cardView
+        val sessionLayout = view.sessionLayout
 
         fun updateFrom(session: Session, status: CountingStatus) {
             dayTextView.text = session.day
-            monthTextView.text = session.month
             scheduleTextView.text = session.schedule
             junctionTextView.text = session.junction
-            laneTextView.text = session.lane
-            sessionCardView.setOnClickListener { view ->
+            sessionLayout.setOnClickListener { view ->
                 val context = view.context
                 if (status == CountingStatus.PENDING) {
                     context.startActivity(

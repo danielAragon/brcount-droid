@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.betterride.brcount">
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -8,7 +9,7 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_icon_foreground"
+        android:roundIcon="@mipmap/br_icon_fg"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".viewcontrollers.activities.MainActivity">
@@ -27,7 +28,7 @@
             android:label="@string/title_activity_log_in"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".viewcontrollers.activities.CountingSessionsActivity"
+            android:name=".viewcontrollers.activities.SessionsActivity"
             android:label="@string/title_activity_counting_sessions"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
@@ -37,6 +38,14 @@
         <activity
             android:name=".viewcontrollers.activities.ReportingActivity"
             android:label="@string/title_activity_reporting"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".viewcontrollers.activities.ChangePasswordActivity"
+            android:label="@string/title_activity_change_password"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".viewcontrollers.activities.ProfileActivity"
+            android:label="@string/title_activity_profile"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
