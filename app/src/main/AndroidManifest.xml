@@ -40,10 +40,6 @@
             android:label="@string/title_activity_reporting"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".viewcontrollers.activities.ChangePasswordActivity"
-            android:label="@string/title_activity_change_password"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".viewcontrollers.activities.ProfileActivity"
             android:label="@string/title_activity_profile"
             android:theme="@style/AppTheme.NoActionBar"></activity>

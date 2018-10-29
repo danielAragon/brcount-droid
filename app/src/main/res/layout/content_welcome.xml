@@ -5,8 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".viewcontrollers.activities.MainActivity"
+    tools:context=".viewcontrollers.activities.WelcomeActivity"
     tools:showIn="@layout/activity_welcome">
 
     <Button
@@ -29,26 +28,13 @@
         style="@style/Widget.AppCompat.Button.Borderless.Colored"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:textColor="#333333"
-        android:text="Ingresar"
-        android:background="@drawable/roundedbutton"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="16dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="70dp"
-        android:text="Ya tienes cuenta ?
-"
+        android:background="@drawable/roundedbutton"
+        android:backgroundTint="#333333"
+        android:text="Ingresar"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
