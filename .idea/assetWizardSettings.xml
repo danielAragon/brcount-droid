@@ -36,8 +36,8 @@
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="ffffff" />
                                       <entry key="backgroundLayerName" value="br_icon_bg" />
-                                      <entry key="foregroundImage" value="$PROJECT_DIR$/../betterride-assets/icon.png" />
-                                      <entry key="foregroundLayerName" value="br_icon_fg" />
+                                      <entry key="foregroundImage" value="$PROJECT_DIR$/../betterride-assets/auto.png" />
+                                      <entry key="foregroundLayerName" value="br_logo_fg" />
                                     </map>
                                   </option>
                                 </PersistentState>
